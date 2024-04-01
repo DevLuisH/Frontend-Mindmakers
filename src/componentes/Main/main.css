@@ -1,0 +1,157 @@
+.main-content {
+  padding: 0px;
+}
+
+.section {
+  margin-bottom: 0px;
+  padding: 400px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px;
+  position: relative;
+}
+.section:first-of-type {
+  margin-bottom: 0px;
+  padding: 400px 0;
+  background-image: url('/src/Img/section.img/fundo.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 100vh;
+  background-color: #ffffff;
+  border-radius: 0px;
+}
+.section h2 {
+  margin-top: 0;
+}
+/*-----------------------------------------------------------*/
+.titulosection1 {
+  color: white;
+  font-size: 80px;
+  position: absolute;
+  top: 30%;
+  top: calc(15% + 50px);
+  right: 55px;
+}
+
+.conteudosection1 {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: calc(40% + 50px);
+  right: 150px;
+  text-align: center;
+}
+/*-----------------------------------------------------------*/
+
+
+.Atendente, .Trial {
+  
+  position: absolute;
+  top: calc(60% + 100px);
+  text-align: center;
+  
+}
+
+.Atendente {
+  left: calc(80% - 0px);
+}
+
+.Trial {
+  left: calc(55% - 0px);
+}
+/*-----------------------------------------------------------*/
+.Atendente ul li, .Trial ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.Atendente ul li a, .Trial ul li a {
+  text-decoration: none;
+  padding: 0 60px;
+  font-size: 15px;
+  border-radius: 20px;
+  background-color: #E26E8C;
+  color: #ffffff;
+  display: inline-block;
+  width: 250px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+/*-----------------------------------------------------------*/
+.produtos {
+  position: absolute;
+  width: auto;
+  max-width: 70%;
+  max-height: 65%;
+  object-fit: contain;
+  bottom: 10px;
+  top: 50px;
+  left: 50px;
+  
+}
+/*-----------------------------------------------------------*/
+.titulosection2{
+  font-size: 60px;
+  position: absolute;
+  top: 30%;
+  left: 50px;
+
+}
+.conteudosection2 {
+  font-size: 25px;
+  position: absolute;
+  top: 25%;
+  right: 50px;
+  left: auto;
+}
+/*-----------------------------------------------------------*/
+.tiulosection3{
+  font-size: 35px;
+  position: absolute;
+  top: 10%;
+  left: 50px;
+}
+
+.conteudosection3{
+  font-size: 20px; 
+  position: absolute;
+  top: 25%;
+  left: 40px;
+  right: auto;
+}
+.imagemsection3 {
+  position: absolute;
+  width: auto;
+  max-width: 100%;
+  max-height: 80%;
+  object-fit: contain;
+  bottom: 150px;
+  right: 0px;
+} 
+/*-----------------------------------------------------------*/
+.tiulosection4{
+  font-size: 35px;
+  position: absolute;
+  top: 10%;
+  right: 100px;
+}
+
+.conteudosection4{
+  font-size: 20px; 
+  position: absolute;
+  top: 25%;
+  right: 40px;
+  left: auto;
+}
+
+.imagemsection4 {
+  position: absolute;
+  width: auto;
+  max-width: 70%; /* Ajuste a largura máxima conforme necessário */
+  max-height: 70%; /* Ajuste a altura máxima conforme necessário */
+  object-fit: contain; /* Isso garante que a imagem seja redimensionada proporcionalmente */
+  bottom: 150px; /* Ajuste a posição conforme necessário */
+  left: 0px; /* Ajuste a posição conforme necessário */
+}    
+  /*-----------------------------------------------------------*/

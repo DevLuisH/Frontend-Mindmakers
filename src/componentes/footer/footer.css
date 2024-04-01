@@ -1,0 +1,18 @@
+.footer {
+  background-color: #0841ab;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  clear: both;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  margin-bottom: 60px;
+}
